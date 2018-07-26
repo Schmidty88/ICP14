@@ -1,0 +1,125 @@
+
+--------------- Changing parameters----------------------------
+# Changed to 0.01
+learning_rate = 0.001
+# Changed to 1000
+training_iters = 10000
+# Changed to 100
+display_step = 1000
+# changed to 2
+n_input = 3
+
+
+Iter= 1200, Average Loss= 8.120618, Average Accuracy= 3.50%
+
+Iter= 2400, Average Loss= 5.403042, Average Accuracy= 4.83%
+
+Iter= 3600, Average Loss= 4.644178, Average Accuracy= 8.42%
+Iter= 4800, Average Loss= 4.363778, Average Accuracy= 7.83%
+
+Iter= 6000, Average Loss= 4.050878, Average Accuracy= 11.75%
+Iter= 7200, Average Loss= 3.855063, Average Accuracy= 14.33%
+Iter= 8400, Average Loss= 3.402528, Average Accuracy= 21.08%
+
+
+Iter= 9600, Average Loss= 3.706592, Average Accuracy= 19.83%
+
+Iter= 10800, Average Loss= 2.858733, Average Accuracy= 27.33%
+Iter= 12000, Average Loss= 3.436200, Average Accuracy= 27.58%
+
+Iter= 13200, Average Loss= 2.992677, Average Accuracy= 29.50%
+Iter= 14400, Average Loss= 2.531495, Average Accuracy= 38.83%
+
+learning_rate = 0.0001  (0.001 changed to .0001)
+
+training_iters = 15000 (10000 changed to 15000)
+
+display_step = 1200 (1000  changed to 1200)
+
+n_input = 4 (3     changed to 4)
+
+
+Iter= 1200, Average Loss= 8.120618, Average Accuracy= 3.50%
+
+Iter= 2400, Average Loss= 5.403042, Average Accuracy= 4.83%
+Iter= 3600, Average Loss= 4.644178, Average Accuracy= 8.42%
+Iter= 4800, Average Loss= 4.363778, Average Accuracy= 7.83%
+
+Iter= 6000, Average Loss= 4.050878, Average Accuracy= 11.75%
+Iter= 7200, Average Loss= 3.855063, Average Accuracy= 14.33%
+
+Iter= 8400, Average Loss= 3.402528, Average Accuracy= 21.08%
+
+Iter= 9600, Average Loss= 3.706592, Average Accuracy= 19.83%
+
+Iter= 10800, Average Loss= 2.858733, Average Accuracy= 27.33%
+
+Iter= 12000, Average Loss= 3.436200, Average Accuracy= 27.58%
+Iter= 13200, Average Loss= 2.992677, Average Accuracy= 29.50%
+
+Iter= 14400, Average Loss= 2.531495, Average Accuracy= 38.83%
+
+
+As we can see with the changed parameter I somehow managed to get the same accuracys and loss for the data
+
+-----------------n_input and n_hidden------------------
+# changed to 4
+n_input = 4
+# changed to 300
+n_hidden = 300
+
+Iter= 1000, Average Loss= 3.362505, Average Accuracy= 24.20%
+Iter= 2000, Average Loss= 1.277356, Average Accuracy= 66.00%
+Iter= 3000, Average Loss= 0.762320, Average Accuracy= 78.10%
+Iter= 4000, Average Loss= 0.561618, Average Accuracy= 82.50%
+Iter= 5000, Average Loss= 0.448444, Average Accuracy= 85.70%
+Iter= 6000, Average Loss= 0.353894, Average Accuracy= 88.00%
+Iter= 7000, Average Loss= 0.330258, Average Accuracy= 88.90%
+Iter= 8000, Average Loss= 0.279610, Average Accuracy= 91.60%
+Iter= 9000, Average Loss= 0.270929, Average Accuracy= 90.80%
+Iter= 10000, Average Loss= 0.280758, Average Accuracy= 90.80%
+
+n_hidden = 800  Changed from 512
+
+n_input = 2       Changed from 3
+
+
+Iter= 1000, Average Loss= 8.250560, Average Accuracy= 1.90%
+
+Iter= 2000, Average Loss= 5.479848, Average Accuracy= 4.00%
+
+Iter= 3000, Average Loss= 4.600569, Average Accuracy= 2.80%
+
+Iter= 4000, Average Loss= 5.075671, Average Accuracy= 3.70%
+
+Iter= 5000, Average Loss= 4.558779, Average Accuracy= 6.50%
+
+Iter= 6000, Average Loss= 5.063815, Average Accuracy= 3.80%
+
+Iter= 7000, Average Loss= 4.837321, Average Accuracy= 5.00%
+Iter= 8000, Average Loss= 4.928630, Average Accuracy= 5.10%
+
+Iter= 9000, Average Loss= 4.864447, Average Accuracy= 4.10%
+
+Iter= 10000,Average Loss= 4.622348, Average Accuracy= 4.70%
+
+
+As we can see changing the input and hidden resulted in a large change of accuracy a input of 4 and hidden of 300
+gave a great accurcy of 90% which is the highest I will end up seeing in this assignment
+-----------------Changed from one step to two step---------------------
+Iter= 1000, Average Loss= 3.086762, Average Accuracy= 21.50%
+Iter= 2000, Average Loss= 1.627968, Average Accuracy= 51.90%
+Iter= 3000, Average Loss= 1.129245, Average Accuracy= 67.80%
+Iter= 4000, Average Loss= 0.879892, Average Accuracy= 75.50%
+Iter= 5000, Average Loss= 0.941037, Average Accuracy= 72.70%
+Iter= 6000, Average Loss= 0.830455, Average Accuracy= 72.30%
+Iter= 7000, Average Loss= 0.633728, Average Accuracy= 78.90%
+Iter= 8000, Average Loss= 0.653987, Average Accuracy= 79.60%
+Iter= 9000, Average Loss= 0.593092, Average Accuracy= 80.80%
+Iter= 10000, Average Loss= 0.621608, Average Accuracy= 78.80%
+
+in this we still get good accuracy results but in this one it took awhile to compile so it isnt an optimal 
+option to use in my opinion.
+
+
+
